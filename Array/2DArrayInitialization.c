@@ -3,6 +3,13 @@ int main()
 {
     // compile time initialization
     int array1[2][3] = {1, 2, 3, 4, 5, 6}, array2[2][3];
+    /*
+    all are same
+
+    int array1[2][3] = {1, 2, 3, 4, 5, 6}
+    int array1[][3] = {1, 2, 3, 4, 5, 6}
+    int array1[2][3] = {{1, 2, 3}, {4, 5, 6}}
+    */
     int i, j;
     // if you initialize after declaration seperately it will give errors
 
