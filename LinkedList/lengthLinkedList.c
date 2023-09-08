@@ -35,7 +35,7 @@ int main()
         printf("%d\t", temp->data);
         temp = temp->next;
     }
-    // finding length
+    // finding length of linked list
     printf("\nThe number of elements in the linked list is\n");
     temp = head;
     while (temp != 0)
